@@ -1,48 +1,14 @@
-# AI News Aggregator - Live Build Repository
+# AI News Aggregator
 
-This repository contains my implementation of an AI-powered news aggregator built while following a live coding session.
+An AI-powered news aggregation system that collects the latest AI-related news, processes and summarizes articles using Large Language Models (LLMs), and delivers a concise daily news digest through email.
 
-## Project Structure
+## Features
 
-The project is organized across three branches, each representing a different stage of development:
-
-- **`master`** - Part 1: Local setup and core functionality
-- **`deployment`** - Part 2: Deployment configuration and infrastructure
-- **`deployment-final`** - Part 3: Final optimizations and production-ready changes
-
-Each branch represents an intermediate checkpoint in the development process.
-
-## How This Project Was Built
-
-This project follows a live coding approach rather than a traditional step-by-step tutorial.
-
-- **Fast-paced development** using AI-assisted coding tools
-- **Iterative development** with continuous testing and debugging
-- **Real-world workflow** involving API integration, development, and deployment
-- **Hands-on implementation** of an end-to-end AI application
-
-## How I Worked on the Project
-
-1. Set up the project locally and configured the required dependencies.
-2. Implemented the core news aggregation functionality.
-3. Integrated AI services for processing and summarizing news.
-4. Built the processing pipeline.
-5. Configured email delivery.
-6. Worked through debugging and deployment-related issues.
-7. Improved the application through iterative development.
-
-## Key Learning Areas
-
-Through this project, I am learning about:
-
-- AI/LLM API integration
-- News aggregation and data processing
-- Web scraping and APIs
-- AI-assisted development
-- Backend workflows
-- Email automation
-- Deployment
-- Debugging and iterative development
+- 📰 Collects the latest AI and technology news
+- 🤖 Uses LLMs to summarize and process articles
+- 🔍 Filters and organizes relevant news
+- 📧 Generates a daily email newsletter
+- ⚙️ Automates the news aggregation and delivery workflow
 
 ## Tech Stack
 
@@ -52,8 +18,17 @@ Through this project, I am learning about:
 - Email Automation
 - Git & GitHub
 
-## Project Status
+## Workflow
 
-🚧 **Currently under development**
-
-This repository is being updated regularly as I build and improve the project.
+```text
+News Sources
+     ↓
+Article Collection
+     ↓
+Data Processing
+     ↓
+AI-Powered Summarization
+     ↓
+News Digest Generation
+     ↓
+Email Delivery
